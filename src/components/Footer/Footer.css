@@ -4,9 +4,23 @@ font-size: 14px;
 }
 .footer-description p{
     font-size: 14px;  
-    margin-top: 10px;
+    margin-top: 6px;
     text-align: left;
 }
+
+/* Custom CSS for the heading */
+.custom-heading {
+    font-size: 18px; /* Increase the font size as needed */
+    font-weight: bold; /* Make the text bold */
+  }
+
+  /* Custom css for the icon */
+  .custom-icon{
+    font-size: 18px; /* Increase the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #55c946;
+  }
+  
 .footer-description ul li a{
     font-size: 12px;
 }
@@ -53,7 +67,7 @@ font-size: 14px;
   
   .custom-col {
     color: white; /* Text color for the columns */
-    padding: 7px; /* Add padding to provide spacing within the columns */
+    padding: 3px; /* Add padding to provide spacing within the columns */
     margin: 7px 0; /* Add margin to create spacing between columns */
   }
   /* Custom CSS for copyright text */
@@ -75,7 +89,7 @@ font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 20px; /* Adjust the gap between icons */
+    column-gap: 10px; /* Adjust the gap between icons */
   }
   
   .social-icons a {
@@ -89,8 +103,8 @@ font-size: 14px;
   }
   
   .icon-container i {
-    padding: 4px;
-    font-size: 18px; /* Adjust icon size */
+    padding: 4px 7px;
+    font-size: 16px; /* Adjust icon size */
     color: white; /* Icon color */
   }
   

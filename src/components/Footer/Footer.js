@@ -9,8 +9,8 @@ const Footer = () => {
           {" "}{/* Added "g-4" class for column gap */}
           <div className="col-md-4 d-flex flex-column">
             <div className="d-flex align-items-center">
-              <i class="fa-solid fa-paper-plane mb-1 text-success" />
-              <h5 className="ms-3">E-Coaching</h5>
+              <i class="fa-solid fa-paper-plane mb-2 custom-icon" />
+              <h6 className="ms-2 custom-heading">E - Coaching</h6>
             </div>
             <p>
               Coaching is a means for developing a partnership between the
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-2 mb-3">
-            <h5>Quick Link</h5>
+            <h5 className="ms-2">Quick Link</h5>
             <ul className="list-unstyled">
               <li>
                 <a href="#" className="dark-link active">
@@ -164,7 +164,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="custom-container">
-        <div className="row">
+        <div className="row py-1">
           <div className="col-md-5 custom-col">
             <div class="copyright">
               Copyright &copy; {new Date().getFullYear()} Educational Center
@@ -197,6 +197,11 @@ const Footer = () => {
               <a href="#">
                 <div class="icon-container">
                   <i class="fab fa-instagram" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="icon-container">
+                  <i class="fa-brands fa-linkedin-in" />
                 </div>
               </a>
             </div>
