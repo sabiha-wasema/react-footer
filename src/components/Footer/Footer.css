@@ -7,6 +7,7 @@ font-size: 14px;
     margin-top: 6px;
     text-align: left;
 }
+
 .footer-description img{
     width: 40px;
     height: 30px;
@@ -71,12 +72,11 @@ font-size: 14px;
 .custom-container {
     background-color: #55c946; /* Background color for the container */
     color: white; /* Text color for the container */
-    padding: 2px 8%; /* Add padding to provide spacing around the content */
+    padding: 5px 8%; /* Add padding to provide spacing around the content */
   }
   
   .custom-col {
-    color: white; /* Text color for the columns */
-    padding: 3px; /* Add padding to provide spacing within the columns */
+    color: white; /* Text color for the columns */ 
     margin: 7px 0; /* Add margin to create spacing between columns */
   }
   /* Custom CSS for copyright text */
@@ -126,6 +126,47 @@ font-size: 14px;
   .icon-container:hover i {
     color: white;
   }
+ 
+  /* Your CSS file (e.g., Footer.css) */
+.small-text {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  /* Additional styles for responsive behavior */
+  @media (max-width: 768px) {
+    .copyright-small-text{
+        text-align: center;
+     }
+  }
+  
+  /* Custom media query for img-fluid class */
+@media (max-width: 576px) {
+    .footer-description{
+        text-align: left;
+        padding: 0 30px;
+    }
+    .footer-description img {
+        width: 80px;
+        height: 50px;
+        border-radius: 5px; 
+    }
+    .footer-description h5{
+        font-size: 19px;
+        }
+    .footer-description ul li a{
+        font-size: 14px;
+            
+        }
+    .dark-link.active {
+         border-width: 3%; /* Adjust the border width according to text size */
+     }
+     .copyright-small-text{
+        text-align: center;
+     }
+        
+        
+  }
+  
   
   
   
