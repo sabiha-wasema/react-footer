@@ -21,7 +21,7 @@ const Header = () => {
             <span class="navbar-toggler-icon" />
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto w-50">
               <li class="nav-item">
                 <a
                   class="nav-link active text-white"
@@ -32,7 +32,7 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">
+                <a class="nav-link text-white" href="#footer">
                   Contact
                 </a>
               </li>

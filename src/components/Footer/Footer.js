@@ -8,7 +8,7 @@ import bankImage from "../../image/islami.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light">
+    <footer className="bg-dark text-light" id="footer">
       <div className="container py-4 py-md-5">
         {/* Footer Description Section */}
         <div className="row g-4 g-md-5 footer-description">
