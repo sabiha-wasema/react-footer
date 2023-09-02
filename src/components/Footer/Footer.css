@@ -1,9 +1,14 @@
 /* custom css for footer content */
 .footer-description h5{
-font-size: 16px;
+font-size: 14px;
+}
+.footer-description p{
+    font-size: 14px;  
+    margin-top: 10px;
+    text-align: left;
 }
 .footer-description ul li a{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Custom CSS for list items */
@@ -48,15 +53,60 @@ font-size: 16px;
   
   .custom-col {
     color: white; /* Text color for the columns */
-    padding: 10px; /* Add padding to provide spacing within the columns */
-    margin: 10px 0; /* Add margin to create spacing between columns */
+    padding: 7px; /* Add padding to provide spacing within the columns */
+    margin: 7px 0; /* Add margin to create spacing between columns */
   }
   /* Custom CSS for copyright text */
 .copyright {
-    font-size: 16px; /* Adjust the font size as needed */
+    font-size: 14px; /* Adjust the font size as needed */
     text-align: left; /* Center-align the text */
     color: white; /* Text color */
   }
+/* Custom CSS for contact information */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px; /* Adjust the gap between icon and text */
+    font-size: 14px; /* Adjust icon size */
+  }
+ /* Custom CSS for social media icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px; /* Adjust the gap between icons */
+  }
+  
+  .social-icons a {
+    text-decoration: none; /* Remove underlines from the links */
+  }
+
+  
+.icon-container {
+    border-radius: 50%; /* Apply round border to the icon container */
+    border: 2px solid white;
+  }
+  
+  .icon-container i {
+    padding: 4px;
+    font-size: 18px; /* Adjust icon size */
+    color: white; /* Icon color */
+  }
+  
+  /* Hover effect to change the background color */
+  .icon-container:hover {
+    background-color: #4ddd7f; /* Change background color on hover */
+  }
+  
+  /* Change text color on hover */
+  .icon-container:hover i {
+    color: white;
+  }
+  
+  
+  
+  
   
   
     

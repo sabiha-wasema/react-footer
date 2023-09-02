@@ -7,15 +7,15 @@ const Footer = () => {
       <div className="container py-5">
         <div className="row g-5 footer-description">
           {" "}{/* Added "g-4" class for column gap */}
-          <div className="col-lg-4 d-flex flex-column">
+          <div className="col-md-4 d-flex flex-column">
             <div className="d-flex align-items-center">
               <i class="fa-solid fa-paper-plane mb-1 text-success" />
               <h5 className="ms-3">E-Coaching</h5>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              quidem explicabo voluptate neque laboriosam, perferendis
-              consectetur modi repudiandae doloribus harum?
+              Coaching is a means for developing a partnership between the
+              manager and employee that creates a shared understanding about
+              what needs to be achieved and how it is to be achieved.
             </p>
             <div className="input-group ">
               <input
@@ -37,7 +37,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-md-2">
             <h5 className="mb-4">Payment Methods</h5>
             <div className="row">
               <div className="col-md-4">
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 mb-3">
+          <div className="col-md-2 mb-3">
             <h5>Quick Link</h5>
             <ul className="list-unstyled">
               <li>
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-2 mb-3">
+          <div className="col-md-2 mb-3">
             <h5 className="ms-2">Services</h5>
             <ul className="list-unstyled">
               <li>
@@ -136,7 +136,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-2 mb-3">
+          <div className="col-md-2 mb-3">
             <h5 className="ms-2">Support</h5>
             <ul className="list-unstyled">
               <li>
@@ -165,14 +165,42 @@ const Footer = () => {
       </div>
       <div className="custom-container">
         <div className="row">
-          <div className="col-md-6 custom-col">
+          <div className="col-md-5 custom-col">
             <div class="copyright">
               Copyright &copy; {new Date().getFullYear()} Educational Center
             </div>
           </div>
-          <div className="col-md-2 custom-col">One of three columns</div>
-          <div className="col-md-2 custom-col">One of three columns</div>
-          <div className="col-md-2 custom-col">One of three columns</div>
+          <div className="col-md-3 custom-col">
+            <div class="contact-info">
+              <i class="mb-3 fa-solid fa-envelope" />
+              <p>info@educationalcenter.com</p> {/* Email address */}
+            </div>
+          </div>
+          <div className="col-md-2 custom-col">
+            <div class="contact-info">
+              <i class="mb-3 fa-solid fa-phone-volume" /> {/* phone icon*/}
+              <p>+1-774-267-8439</p>
+            </div>
+          </div>
+          <div className="col-md-2 custom-col">
+            <div class="social-icons">
+              <a href="#">
+                <div class="icon-container">
+                  <i class="fa-brands fa-facebook-f" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="icon-container">
+                  <i class="fab fa-twitter" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="icon-container">
+                  <i class="fab fa-instagram" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
