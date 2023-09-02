@@ -3,11 +3,11 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-4">
-      <div className="container px-2 py-4">
-        <div className="row g-4">
+    <footer className="bg-dark text-light">
+      <div className="container py-5">
+        <div className="row g-5 footer-description">
           {" "}{/* Added "g-4" class for column gap */}
-          <div className="col-md-4 d-flex flex-column">
+          <div className="col-lg-4 d-flex flex-column">
             <div className="d-flex align-items-center">
               <i class="fa-solid fa-paper-plane mb-1 text-success" />
               <h5 className="ms-3">E-Coaching</h5>
@@ -22,14 +22,14 @@ const Footer = () => {
                 type="text"
                 className=" form-control bg-dark py-2 text-white"
                 placeholder="Enter the Email"
-                style={{ borderColor: "#4ddd7f" }}
+                style={{ borderColor: "#55c946" }}
               />
               <button
                 className="btn btn-outline-primary px-3"
                 type="button"
                 style={{
-                  backgroundColor: "#4ddd7f",
-                  borderColor: "#4ddd7f",
+                  backgroundColor: "#55c946",
+                  borderColor: "#55c946",
                   color: "white"
                 }}
               >
@@ -37,7 +37,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="col-md-2">
+          <div className="col-lg-2">
             <h5 className="mb-4">Payment Methods</h5>
             <div className="row">
               <div className="col-md-4">
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-2 mb-3">
+          <div className="col-lg-2 mb-3">
             <h5>Quick Link</h5>
             <ul className="list-unstyled">
               <li>
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 mb-3">
+          <div className="col-lg-2 mb-3">
             <h5 className="ms-2">Services</h5>
             <ul className="list-unstyled">
               <li>
@@ -136,7 +136,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 mb-3">
+          <div className="col-lg-2 mb-3">
             <h5 className="ms-2">Support</h5>
             <ul className="list-unstyled">
               <li>
@@ -161,6 +161,18 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="custom-container">
+        <div className="row">
+          <div className="col-md-6 custom-col">
+            <div class="copyright">
+              Copyright &copy; {new Date().getFullYear()} Educational Center
+            </div>
+          </div>
+          <div className="col-md-2 custom-col">One of three columns</div>
+          <div className="col-md-2 custom-col">One of three columns</div>
+          <div className="col-md-2 custom-col">One of three columns</div>
         </div>
       </div>
     </footer>

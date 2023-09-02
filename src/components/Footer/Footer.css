@@ -1,3 +1,11 @@
+/* custom css for footer content */
+.footer-description h5{
+font-size: 16px;
+}
+.footer-description ul li a{
+    font-size: 14px;
+}
+
 /* Custom CSS for list items */
 .custom-list {
     list-style: none;
@@ -21,13 +29,34 @@
   }
   
   .dark-link:hover {
-    background-color: #4ddd7f; /* Change background color on hover */
+    background-color: #55c946; /* Change background color on hover */
     color: white; /* Text color on hover */
   }
   .dark-link.active {
     color: white; /* Text color for the active link, matching the background color */
     border-width: 10%; /* Adjust the border width according to text size */
     border-bottom-style: solid; /* Set the border style to solid */
-    border-bottom-color: #4ddd7f; /* Add an underline color that matches the background color */
+    border-bottom-color: #55c946; /* Add an underline color that matches the background color */
   }
+
+  /* Custom CSS for container and columns */
+.custom-container {
+    background-color: #55c946; /* Background color for the container */
+    color: white; /* Text color for the container */
+    padding: 2px 8%; /* Add padding to provide spacing around the content */
+  }
+  
+  .custom-col {
+    color: white; /* Text color for the columns */
+    padding: 10px; /* Add padding to provide spacing within the columns */
+    margin: 10px 0; /* Add margin to create spacing between columns */
+  }
+  /* Custom CSS for copyright text */
+.copyright {
+    font-size: 16px; /* Adjust the font size as needed */
+    text-align: left; /* Center-align the text */
+    color: white; /* Text color */
+  }
+  
+  
     
