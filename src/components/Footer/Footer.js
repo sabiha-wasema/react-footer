@@ -1,5 +1,10 @@
 import React from "react";
 import "./Footer.css";
+import visaImage from "../../image/visa.png";
+import bkashImage from "../../image/bkash.png";
+import masterImage from "../../image/master.png";
+import dbblImage from "../../image/dbbl.png";
+import bankImage from "../../image/islami.png";
 
 const Footer = () => {
   return (
@@ -38,23 +43,23 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-2">
-            <h5 className="mb-4">Payment Methods</h5>
+            <h5 className="mb-2">Payment Methods</h5>
             <div className="row">
               <div className="col-md-4">
                 <ul className="list-unstyled custom-list">
                   <li>
                     <a href="#">
-                      <img src="image1.jpg" alt="Image 1" />
+                      <img src={visaImage} alt="Image 1" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="image2.jpg" alt="Image 2" />
+                      <img src={bkashImage} alt="Image 2" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="image2.jpg" alt="Image 2" />
+                      <img src={masterImage} alt="Image 2" />
                     </a>
                   </li>
                 </ul>
@@ -63,12 +68,12 @@ const Footer = () => {
                 <ul className="list-unstyled custom-list">
                   <li>
                     <a href="#">
-                      <img src="image3.jpg" alt="Image 3" />
+                      <img src={dbblImage} alt="Image 3" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="image4.jpg" alt="Image 4" />
+                      <img src={bankImage} alt="Image 4" />
                     </a>
                   </li>
                 </ul>

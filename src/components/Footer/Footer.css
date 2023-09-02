@@ -7,6 +7,11 @@ font-size: 14px;
     margin-top: 6px;
     text-align: left;
 }
+.footer-description img{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+}
 
 /* Custom CSS for the heading */
 .custom-heading {
@@ -23,6 +28,7 @@ font-size: 14px;
   
 .footer-description ul li a{
     font-size: 12px;
+    
 }
 
 /* Custom CSS for list items */
@@ -32,6 +38,9 @@ font-size: 14px;
   }
   
   /* Style for list item links */
+  .custom-list li{
+    margin-top: 15px;
+  }
   .custom-list li a {
     text-decoration: none; /* Remove underlines from anchor tags */
     color: white;
