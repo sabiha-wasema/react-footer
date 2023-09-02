@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4">
-      <div className="container">
+      <div className="container px-2 py-4">
         <div className="row g-4">
           {" "}{/* Added "g-4" class for column gap */}
           <div className="col-md-4 d-flex flex-column">
@@ -37,58 +38,126 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-2">
-            <h5>Payment Methods</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#">Link 4</a>
-              </li>
-              <li>
-                <a href="#">Link 5</a>
-              </li>
-              <li>
-                <a href="#">Link 6</a>
-              </li>
-            </ul>
+            <h5 className="mb-4">Payment Methods</h5>
+            <div className="row">
+              <div className="col-md-4">
+                <ul className="list-unstyled custom-list">
+                  <li>
+                    <a href="#">
+                      <img src="image1.jpg" alt="Image 1" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="image2.jpg" alt="Image 2" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="image2.jpg" alt="Image 2" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <ul className="list-unstyled custom-list">
+                  <li>
+                    <a href="#">
+                      <img src="image3.jpg" alt="Image 3" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="image4.jpg" alt="Image 4" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 mb-3">
             <h5>Quick Link</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#">Link 7</a>
+                <a href="#" className="dark-link active">
+                  {" "}{/* Add the "active" class here */}
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">Link 8</a>
+                <a href="#" className="dark-link">
+                  Our story
+                </a>
               </li>
               <li>
-                <a href="#">Link 9</a>
+                <a href="#" className="dark-link">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dark-link">
+                  Blogs
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dark-link">
+                  Popular Courses
+                </a>
               </li>
             </ul>
           </div>
-          <div className="col-md-2">
-            <h5>Services</h5>
+          <div className="col-md-2 mb-3">
+            <h5 className="ms-2">Services</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#">Link 10</a>
+                <a href="#" className="dark-link">
+                  Academic Courses
+                </a>
               </li>
               <li>
-                <a href="#">Link 11</a>
+                <a href="#" className="dark-link">
+                  Digital Marketing
+                </a>
               </li>
               <li>
-                <a href="#">Link 12</a>
+                <a href="#" className="dark-link">
+                  Web Design
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dark-link">
+                  Web Development
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dark-link">
+                  Spoken English
+                </a>
               </li>
             </ul>
           </div>
-          <div className="col-md-2">
-            <h5>Support</h5>
+          <div className="col-md-2 mb-3">
+            <h5 className="ms-2">Support</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#">Link 10</a>
+                <a href="#" className="dark-link">
+                  Contact Us
+                </a>
               </li>
               <li>
-                <a href="#">Link 11</a>
+                <a href="#" className="dark-link">
+                  Privacy Policy
+                </a>
               </li>
               <li>
-                <a href="#">Link 12</a>
+                <a href="#" className="dark-link">
+                  Terms & Condition
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dark-link">
+                  Submit a Request
+                </a>
               </li>
             </ul>
           </div>

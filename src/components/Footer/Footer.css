@@ -1,0 +1,33 @@
+/* Custom CSS for list items */
+.custom-list {
+    list-style: none;
+    color: white;
+  }
+  
+  /* Style for list item links */
+  .custom-list li a {
+    text-decoration: none; /* Remove underlines from anchor tags */
+    color: white;
+  }
+/* Custom CSS for dark background anchor links */
+.dark-link {
+    color: white; /* Text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    display: block; /* Make anchor tags full-width */
+    margin-bottom: 5px; /* Add space between links */
+    text-decoration: none; /* Remove underlines from anchor tags */
+    border-radius: 4px; /* Add rounded corners */
+    border-bottom: 2px solid transparent; /* Add a transparent underline */
+  }
+  
+  .dark-link:hover {
+    background-color: #4ddd7f; /* Change background color on hover */
+    color: white; /* Text color on hover */
+  }
+  .dark-link.active {
+    color: white; /* Text color for the active link, matching the background color */
+    border-width: 10%; /* Adjust the border width according to text size */
+    border-bottom-style: solid; /* Set the border style to solid */
+    border-bottom-color: #4ddd7f; /* Add an underline color that matches the background color */
+  }
+    
